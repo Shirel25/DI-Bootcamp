@@ -29,3 +29,6 @@ for dog in dogs:
 print(dog1.fight(dog2))
 print(dog1.fight(dog3))
 print(dog2.fight(dog3))
+
+print("\n================================")
+
