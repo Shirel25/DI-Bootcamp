@@ -19,14 +19,16 @@ class Pagination:
             self.getVisibleItems() 
         else:
             print("You're already on the first page.")
-
+        return self
+    
     def nextPage(self):
         if self.currentPage < self.totalPages :
             self.currentPage += 1
             self.getVisibleItems() 
         else:
             print("You're already on the last page.")
-
+        return self
+    
     def firstPage(self):
         self.currentPage = 1
         self.getVisibleItems() 
@@ -54,12 +56,21 @@ p.getVisibleItems() # ['a', 'b', 'c']
 p.prevPage() # You're already on the first page.
 p.nextPage() # ['d', 'e', 'f']
 
-p.firstPage() #['a', 'b', 'c']
+p.firstPage() # ['a', 'b', 'c']
 p.lastPage() # ['y', 'z']
 
-p.goToPage(6) #['p', 'q', 'r']
+print("page 6 :")
+p.goToPage(6) # ['p', 'q', 'r']
+p.nextPage().nextPage() # ['s', 't', 'u']
+                        # ['v', 'w', 'x']
 
 print("closest to first page")
 p.goToPage(-3) # ['a', 'b', 'c']
 print("closest to last page")
 p.goToPage(100) # ['y', 'z']
+
+print("--------------")
+p.goToPage(2) # ['d', 'e', 'f']
+p.nextPage().nextPage().prevPage() # ['g', 'h', 'i']
+                                   # ['j', 'k', 'l']
+                                   # ['g', 'h', 'i']
