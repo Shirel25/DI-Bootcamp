@@ -16,9 +16,9 @@ class TheIncredibles(Family):
         print("Here is our powerful family :")
         print(f"=== {self.last_name} family ===")
         super().family_presentation()
-        print("\n=== Additionnal incredible details : ===")
-        for member in self.members:
-            print(f"{member['name']} : Power : {member['power']}, Incredible Name : {member['incredible_name']}")
+        # print("\n=== Additionnal incredible details : ===")
+        # for member in self.members:
+        #     print(f"{member['name']} : Power : {member['power']}, Incredible Name : {member['incredible_name']}")
 
 
 
@@ -39,4 +39,5 @@ print("\n================================================")
 swift.incredible_presentation()
 
 swift.born(name = 'Jack', age=0, gender = 'Male', is_child = True, power = 'Unkown', incredible_name = 'Jacky')
+swift.born(name = 'Perl', age=0, power = 'Unkown')
 swift.incredible_presentation()

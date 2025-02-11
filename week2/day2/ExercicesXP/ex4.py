@@ -14,8 +14,11 @@ class Family:
     
     def family_presentation(self):
         for member in self.members:
-            print(f"Name :{member['name']}, Age : {member['age']}, Gender : {member['gender']}, isChild : {member['is_child']}")
-    
+            # print(f"Name :{member['name']}, Age : {member['age']}, Gender : {member['gender']}, isChild : {member['is_child']}")
+            for details in member.keys():
+                print(f"{details} : {member[details]}")
+            print("\n================================================")
+
 family = Family("Cohen")    
 family.members = [
     {'name':'Michael','age':35,'gender':'Male','is_child':False},
