@@ -21,7 +21,7 @@ class Game:
     def get_game_result(self):
         useritem = self.get_user_item()
         
-        if useritem == "q": # q is detect, we stop the game
+        if useritem == "q": # q is detected, we stop the game
             print("\n=== Game aborted ===")
             return "q"
         
