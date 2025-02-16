@@ -1,0 +1,46 @@
+https://www.astera.com/industry/healthcare/healthcare-data-analytics-during-covid-19/
+
+===== Step 1 =====
+Subject : Healthcare Data Analytics During the COVID-19 Pandemic
+
+
+===== Step 2 =====
+During the COVID-19 pandemic, healthcare data analytics played a crucial role in 
+managing and understanding the crisis. Several types of data analysis were used to 
+handle different aspects of the pandemic:
+
+1 - Descriptive Analytics :
+        Based on factual data, descriptive analytics was used to track the 
+        spread of the virus across different regions and analyze disease patterns.
+2 - Diagnostic Analytics :
+        Focused on identifying symptoms and causes of the disease by analyzing patient 
+        health records and hospital data.
+3 - Predictive Analytics :
+        Used to forecast the severity of the virus and estimate the mortality risk 
+        for infected patients based on previous cases.
+4 - Prescriptive Analytics : 
+        Helped healthcare professionals determine the best course of action by analyzing 
+        research data and recommending preventive measures or treatments.
+    
+
+===== Step 3 =====
+- Predictive analytics helped hospitals anticipate the needs for intensive care units, 
+     ventilators, and medical staff.
+- Clinics could adapt treatments based on analyzed patient symptoms, 
+     leading to better medical decisions.
+- Security measures were implemented in advance, reducing the spread of the 
+     virus in critical areas.
+
+ ----> Whithout Data Analysis :
+    - There would have been a lack of preparation in hospitals, leading to shortages of beds, 
+    protective equipment, and medical staff.
+    - Authorities might not have been able to predict infection peaks, resulting in poorly 
+    timed lockdowns or restrictions.
+    - Without predictive analytics, high-risk patients might not have received early intervention, 
+    increasing the mortality rate.
+
+===== Step 4 =====
+This case study highlights how data analytics transformed healthcare decision-making during a global crisis. 
+By leveraging descriptive, diagnostic, predictive, and prescriptive analytics, health professionals were 
+able to anticipate challenges, allocate resources efficiently, and ultimately save lives.
+
