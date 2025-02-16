@@ -1,0 +1,54 @@
+- Quantitative data consists of numerical values that can be measured or counted.
+- Qualitative data represents categorical values, which describe attributes or characteristics. 
+
+
+===== How Much Sleep Do Americans Really Get ? =====
+- Quantitative data :   - index
+                        - Year
+                        - Avg hrs per day sleeping
+                        - Standard Error
+                        
+
+- Qualitative data :    - Period
+                        - Type of Days
+                        - Age Group
+                        - Activity
+                        - Sex
+
+
+===== Global Trends in Mental Health Disorder =====
+- Quantitative data :   - index
+                        - Year
+                        - Schizophrenia
+                        - Bipolar disorders
+                        - Eating disorders
+                        - Anxiety disorders
+                        - Drug use disorders
+                        - Depression
+                        - Alcohol use disorders
+
+
+- Qualitative data :    - Entity
+                        - Code
+                        
+
+===== Credit Card Approvals =====
+- Quantitative data :   - Age
+                        - Debt
+                        - YearsEmployed
+                        - CreditScore
+                        -Income 
+
+
+- Qualitative data :    - Gender
+                        - Married
+                        - BankCustomer
+                        - Industry
+                        - Ethnicity
+                        - PriorDefault
+                        - Employed
+                        - DriversLicence
+                        - Citizen
+                        - ZipCode
+                        - Approved
+
