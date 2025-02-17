@@ -1,0 +1,14 @@
+=== A company’s financial reports stored in an Excel file. ===
+    ---> Structured data
+
+=== Photographs uploaded to a social media platform. ===
+    ---> Unstructured data
+
+=== A collection of news articles on a website. ===
+    ---> Unstructured data
+
+=== Inventory data in a relational database. ===
+    ---> Structured data
+
+=== Recorded interviews from a market research study. ===
+    ---> Unstructured data
