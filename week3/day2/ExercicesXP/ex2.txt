@@ -1,0 +1,18 @@
+=== A series of blog posts about travel experiences. ====
+    We could extract key information from the text, such as the travel destination, 
+    travel date, activities done, total price and general reviews.
+    Then, we could store this data in a structured database table, making it easier to
+    analyze and work with.
+
+=== Audio recordings of customer service calls. ====
+    We could use AI to generate a transcription of the call, then extract key
+    information from the text. As in the previous example, we would store the extracted data in a structured database 
+    table to facilitate further analysis.
+
+=== Handwritten notes from a brainstorming session. ====
+    We could use Optical Character Recognition (OCR) technology to convert handwritten text into digital text.  
+    Then, we would extract the key ideas and organize them in a database for easy access and analysis.
+
+=== A video tutorial on cooking. ====
+    Similar to audio recordings, we could generate a transcription of the video and extract relevant data, such as 
+    ingredients and cooking steps. This structured data could then be sotored in a database for future use.
