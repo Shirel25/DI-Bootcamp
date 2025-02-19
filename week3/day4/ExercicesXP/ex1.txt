@@ -1,0 +1,17 @@
+=== Task: Explain why data visualization is important in data analysis. ===
+
+Data visualization make data easier to understand
+and interpret. It helps identify patterns, trends, 
+and anomalies, making insights more accessible. 
+By representing data through graphs, charts, and plots, it enables efficient  
+and effective communication of information. 
+
+
+=== Task: Describe the purpose of a line graph in data visualization. ===
+
+Line plots are used to display quatitative values over a continuous
+interval of time span. They are ideal for showing trends and changes
+over time.
+Data points are plotted and connected by straight 
+line segments forming a visual representation of variations. 
+Often, the x-axis represents time.
