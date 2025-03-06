@@ -1,0 +1,85 @@
+===== Introduction to Machine Learning =====
+Machine Learning is a method by which computers learn from data to 
+make decisions or predictions, without being explicitly programmed for 
+each specific task.
+The more it learns, the more effecient it becomes.
+
+This method is particularly valuable for data analysts. For instance, 
+if someone is working as a data analyst in a tech company that deals with large 
+datasets and predictive modeling, having ML skills is a significant advantage.
+
+
+===== Applications of Machine Learning =====
+ML has a wide range of applications across various fields and industries. Here are some key uses :
+
+ - Predictive Analytics : 
+ ML is often used for forecasing and predicting future trends based on historical data. 
+ This is common in finance for stock market predictions, in retail for demand forecasting, and in 
+ meteorology for weather forecasting. 
+
+ - Image and Speech Recognition : 
+ ML is used in security through facial recognition algorithms, in diagnosing diseases 
+ through image analysis, and in virtual assistants via voice recognition (Siri, Alexa...)
+ 
+ - Natural Language Processing(NLP) : 
+Helps in understanding and interpreting human language, such as in chatbots 
+and language translation services.
+ 
+ - Recommandation Systems : 
+ Used by e-commerce websites (Amazon), streaming services (Netflix), and
+ music platforms (Spotify) to suggest relevant content to users. 
+ 
+ - Fraud detection : 
+ In banking and finance, ML algorithms analyze transaction patterns to detect suspicious activities
+ and prevent fraud in real-time.
+
+Other applications span Healthcare, Autonomous Vehicles, Marketing Personalization, 
+ Manufacturing, Gaming, Agriculture, Environmental Protection, Education, Human Resources and Robotics.
+
+
+===== Types of Machine Learning =====
+There are 3 main types of ML : 
+1. Supervised Learning
+- The algorithm learns from a labeled dataset, meaning that the correct output for each input is known in advance. 
+- Example : A dataset containing images labeled as either 'cat' or 'no cat'. The model is trained to classify
+new images correctly.
+
+
+2. Unsupervised Learning 
+- The algorithm is trained on data that is neither classified nor labeled. It identifies patterns and structures in the data.
+- Example: Clustering a dataset of customer transactions to identify different spending behaviors without prior knowledge of categories. 
+
+
+3. Reinforcement Learning
+- The model learns by interacting with an environment and receiving feedback in terms of rewards or penalties.
+  It makes decisions and learns based on the consequences of these actions. 
+- Example : Training a robot to navigate a maze by reinforcing correct decisions and penalizing incorrect ones.
+
+
+===== Process of developing a ML model ===== 
+- First we need to define the problem and understand what we want to solve. 
+- After that, we collect the data that will be used to train and test the model.
+
+- Feature Selection : 
+   - Identify the most relevant features of the dataset.
+   - Conduct a preliminary analysis (e.g., correlations between features) to avoid redundancy.
+
+- Model Selection : 
+   - Choose an appropriate ML algorithm based on the problem type.
+   - Examples: Linear Regression for regression tasks, Decision Trees for classification, Neural Networks for complex problems.
+
+- Model Evaluation : 
+   - Assess the model's performance using a separate test dataset.
+   - Key evaluation metrics include:
+        - Accuracy: Correct predictions / Total predictions.
+        - Precision: True Positives / All predicted positives.
+        - Recall: True Positives / All actual positives.
+        - Mean Squared Error (MSE) for regression problems.
+   - The confusion matrix helps visualize classification errors (TP, TN, FP, FN).
+
+By following these steps, we can develop robust machine learning models that perform well on new,
+unseen data.
+
+
+
+
