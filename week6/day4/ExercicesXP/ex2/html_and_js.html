@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 2 - HTML and Javascript</title>
+</head>
+<body>
+    <header>
+        <h1 id="h1">This page contains only HTML content</h1>
+        <h3 id="h3">We'll compare this file to another containing JavaScript content</h3>
+    </header>
+
+    <p id="text">Here is a paragraph</p>
+    <ul>
+        Here is a list : 
+        <li id="item1">item 1</li>
+        <li id="item2">item 2</li>
+        <li id="item3">item 3</li>
+    </ul>
+
+    <script>
+        setTimeout(() => {
+            document.getElementById("h1").innerHTML = "This page contains HTML and JavaScript content"
+            document.getElementById("h3").innerHTML = "We'll compare this file to another containing HTML content only"
+
+            const text = document.getElementById("text");
+            text.innerHTML = "The paragraphe changed dynamically!"
+
+            document.getElementById("item1").innerHTML = "New Item 1";
+            document.getElementById("item2").innerHTML = "New Item 2";
+            document.getElementById("item3").innerHTML = "New Item 3";
+        }, 3000); // Changes after 3 seconds
+    </script>
+    
+</body>
+    
+</html>
