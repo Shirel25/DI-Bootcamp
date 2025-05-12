@@ -21,9 +21,6 @@ This project presents an interactive Tableau dashboard built using real-world jo
 - Bubble charts, bar charts, line graphs, and treemaps
 
 
-## 🖼 Preview
-![Dashboard Overview](screenshot.png)
-
 ## 📁 Files
 - `mini_project.twbx` – Packaged Tableau workbook  
 - `README.md` – This file
